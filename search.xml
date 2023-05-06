@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>First Day</title>
+    <url>/2023-05-06-hello-world/</url>
+    <content><![CDATA[<h2 id="今天学到的新知识"><a href="#今天学到的新知识" class="headerlink" title="今天学到的新知识"></a>今天学到的新知识</h2><h3 id="如何更新和上传博客"><a href="#如何更新和上传博客" class="headerlink" title="如何更新和上传博客"></a>如何更新和上传博客</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo cl</span><br></pre></td></tr></table></figure>
+<p>‘hexo c1’命令用于清除缓存文件(db.json)和已生成的静态文件(public)。<br>例如:在更换主题后，如果发现站点更改不生效，可以运行该命令。</p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
+<p>这些操作只是在本地进行了更新，要想部署到网上(github)，则不需要输入hexo x，输入如下代码:</p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
+<p>这样就可以在网上浏览自己的博客了！</p>
+]]></content>
+      <tags>
+        <tag>记录</tag>
+      </tags>
+  </entry>
+</search>
