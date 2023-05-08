@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>First Day</title>
+    <url>/2023-05-06-hello-world/</url>
+    <content><![CDATA[<h2 id="今天学到的新知识"><a href="#今天学到的新知识" class="headerlink" title="今天学到的新知识"></a>今天学到的新知识</h2><h3 id="如何更新和上传博客"><a href="#如何更新和上传博客" class="headerlink" title="如何更新和上传博客"></a>如何更新和上传博客</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo cl</span><br></pre></td></tr></table></figure>
+<p>‘hexo c1’命令用于清除缓存文件(db.json)和已生成的静态文件(public)。<br>例如:在更换主题后，如果发现站点更改不生效，可以运行该命令。</p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
+<p>这些操作只是在本地进行了更新，要想部署到网上(github)，则不需要输入hexo x，输入如下代码:</p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
+<p>这样就可以在网上浏览自己的博客了！</p>
+]]></content>
+      <categories>
+        <category>hexo配置</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>R story</title>
+    <url>/2023-05-08-R-story/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="c8c3fc98bde56e6f41e9146e175982647ccfa07d11d0cef4c8cd5aaa4a4794f4">7101c09bfa547786a7ea7678592aad1ee9fcd7dd18bac70dfbd5b54b5ae849217dfddf2f11447f652e73861a6619713e7ad785392c64706de2ffb4d142d5da0ce083aa9655e69eb2a494db63a8fb279a58d5664e46f4c523ae483142db7fae3a944475979c1dab8a91c3aab41ed9288b3a736f1e252d269d920fa953e05f6678053cdc5b32d21dd065b2eeb2420bf884ef2580536415b458d8adb9dae21f209a30df0ce17e976d8a3b8e1a1a4a8dc8a8c2d9d49ca8ada3cabe65ebb32ae12994d80aee9128d3ab30c0173cc147505120d6f1face1af93ddaf37ecec1fbebd30c9f7c2190cb2a7e8666eeca767ddf2ac93deefaae29044f59d34efcfe01120299921a259ece5c2c52d7235716258d47254f5fe74e747d20b6cce395d6333dc57510ab876e9d25c4603ead6d0d39fadd71a06f8c87611271333bd2cc6baada67ff011844ffc57d677d9dbccc6dac2f0cf758c7a9ab3bbb69fdca1b82f7a99f0eb760469b9d05effc9533300ed680ac898808dc728e128279bbed8843077698c78829bfaab0316769f5799f5853e02c7f0309d84a2d0e35fdc59c9abbd5e5487e5e0381054d6c2c73b3121e2845e4c18970155e733686d4b22321546a26ea1b16b8a11cac728b298380a9d434123c9dd016571705e689e7ba53c4aba96baf8399a5870280feb1b250d2ce3a1ec7db590ed7c8f67e99b2ceed51ae6789a5c9b9f8e0c34a1855a3a6c838235f5984ac4b462612fe79e7d3ef023bbb92d08c8bf2ee3f71075f74e9144456fbcc893f0fb5f298731c481bed719a1b473fa0c6d94ba79443866b0329a432dfaccfd606966c07d31e8f92c9eac772bd47d33cc747defa3509779b817b2f474402b252ac31f41f2a7bf4129dae479d397df2e092ea6ef940be375820247995e80cdf2908081ca8d144053a54fdecfad4b62af27091b89cdc015fe38105d54215da3657424f0e8273</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">输入密码！</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <tags>
+        <tag>记录</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Second Day</title>
     <url>/2023-05-07-Second-Day/</url>
     <content><![CDATA[<h2 id="今天开始了解hexo的插件了"><a href="#今天开始了解hexo的插件了" class="headerlink" title="今天开始了解hexo的插件了"></a>今天开始了解hexo的插件了</h2><p>一开始觉得Blog的样式因你选择的博客主题而固定，没有办法修改<br>因此便发现的hexo的插件</p>
@@ -43,23 +87,9 @@
       </tags>
   </entry>
   <entry>
-    <title>First Day</title>
-    <url>/2023-05-06-hello-world/</url>
-    <content><![CDATA[<h2 id="今天学到的新知识"><a href="#今天学到的新知识" class="headerlink" title="今天学到的新知识"></a>今天学到的新知识</h2><h3 id="如何更新和上传博客"><a href="#如何更新和上传博客" class="headerlink" title="如何更新和上传博客"></a>如何更新和上传博客</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo cl</span><br></pre></td></tr></table></figure>
-<p>‘hexo c1’命令用于清除缓存文件(db.json)和已生成的静态文件(public)。<br>例如:在更换主题后，如果发现站点更改不生效，可以运行该命令。</p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
-<p>这些操作只是在本地进行了更新，要想部署到网上(github)，则不需要输入hexo x，输入如下代码:</p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
-<p>这样就可以在网上浏览自己的博客了！</p>
-]]></content>
+    <title>hexo插入图片</title>
+    <url>/2023-05-08-hexo%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/</url>
+    <content><![CDATA[<h1 id="文件资源管理器"><a href="#文件资源管理器" class="headerlink" title="文件资源管理器"></a>文件资源管理器</h1>]]></content>
       <categories>
         <category>hexo配置</category>
       </categories>
@@ -105,13 +135,15 @@
     </li>
 </ul>
 
-<h4 id="顺序栈的实现"><a href="#顺序栈的实现" class="headerlink" title="顺序栈的实现"></a>顺序栈的实现</h4><h5 id="顺序栈的定义"><a href="#顺序栈的定义" class="headerlink" title="顺序栈的定义"></a>顺序栈的定义</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">define</span> MaxSize 10</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span>&#123;</span></span><br><span class="line">    Elemtype data[MaxSize];</span><br><span class="line">    <span class="type">int</span> top;</span><br><span class="line">&#125; SqStack;</span><br></pre></td></tr></table></figure>
-<h5 id="顺序栈的顺序存储类型"><a href="#顺序栈的顺序存储类型" class="headerlink" title="顺序栈的顺序存储类型"></a>顺序栈的顺序存储类型</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">InitStack</span><span class="params">( Sqstack &amp;S )</span>&#123;</span><br><span class="line">    S.top=<span class="number">-1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="顺序栈的实现"><a href="#顺序栈的实现" class="headerlink" title="顺序栈的实现"></a>顺序栈的实现</h4><h5 id="顺序栈的顺序存储类型"><a href="#顺序栈的顺序存储类型" class="headerlink" title="顺序栈的顺序存储类型"></a>顺序栈的顺序存储类型</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">define</span> MaxSize 10</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span>&#123;</span></span><br><span class="line">    Elemtype data[MaxSize];</span><br><span class="line">    <span class="type">int</span> top;</span><br><span class="line">&#125; SqStack;</span><br></pre></td></tr></table></figure>
+
+<h5 id="顺序栈的初始化"><a href="#顺序栈的初始化" class="headerlink" title="顺序栈的初始化"></a>顺序栈的初始化</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">InitStack</span><span class="params">( Sqstack &amp;S )</span>&#123;</span><br><span class="line">    S.top=<span class="number">-1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <h5 id="判断栈空"><a href="#判断栈空" class="headerlink" title="判断栈空"></a>判断栈空</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">StackEmpty</span><span class="params">( Sqstack &amp;S )</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(S.top=<span class="number">-1</span>)&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <h5 id="进栈"><a href="#进栈" class="headerlink" title="进栈"></a>进栈</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">Push</span><span class="params">( Sqstack &amp;S, ElemType x)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(S.top=MaxSize<span class="number">-1</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    S.top[++S.top]=x;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h5 id="出栈"><a href="#出栈" class="headerlink" title="出栈"></a>出栈</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">PoP</span><span class="params">( Sqstack &amp;S, ElemType &amp;x)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(S.top=MaxSize<span class="number">-1</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    S.top[++S.top]=x;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h5 id="出栈"><a href="#出栈" class="headerlink" title="出栈"></a>出栈</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">PoP</span><span class="params">( Sqstack &amp;S, ElemType &amp;x)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(S.top=MaxSize<span class="number">-1</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    x=S.top[S.top--];</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <h5 id="读取栈顶元素"><a href="#读取栈顶元素" class="headerlink" title="读取栈顶元素"></a>读取栈顶元素</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">GetTop</span><span class="params">( Sqstack &amp;S, ElemType &amp;x)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(S.top=<span class="number">-1</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    x=S.date[S.top];</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
