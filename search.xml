@@ -20,6 +20,31 @@
       </tags>
   </entry>
   <entry>
+    <title>First Day</title>
+    <url>/2023-05-06-hello-world/</url>
+    <content><![CDATA[<h2 id="今天学到的新知识"><a href="#今天学到的新知识" class="headerlink" title="今天学到的新知识"></a>今天学到的新知识</h2><h3 id="如何更新和上传博客"><a href="#如何更新和上传博客" class="headerlink" title="如何更新和上传博客"></a>如何更新和上传博客</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo cl</span><br></pre></td></tr></table></figure>
+<p>‘hexo c1’命令用于清除缓存文件(db.json)和已生成的静态文件(public)。<br>例如:在更换主题后，如果发现站点更改不生效，可以运行该命令。</p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
+<p>这些操作只是在本地进行了更新，要想部署到网上(github)，则不需要输入hexo x，输入如下代码:</p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
+<p>这样就可以在网上浏览自己的博客了！</p>
+]]></content>
+      <categories>
+        <category>hexo配置</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Second Day</title>
     <url>/2023-05-07-Second-Day/</url>
     <content><![CDATA[<h2 id="今天开始了解hexo的插件了"><a href="#今天开始了解hexo的插件了" class="headerlink" title="今天开始了解hexo的插件了"></a>今天开始了解hexo的插件了</h2><p>一开始觉得Blog的样式因你选择的博客主题而固定，没有办法修改<br>因此便发现的hexo的插件</p>
@@ -58,97 +83,6 @@
       </categories>
       <tags>
         <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>First Day</title>
-    <url>/2023-05-06-hello-world/</url>
-    <content><![CDATA[<h2 id="今天学到的新知识"><a href="#今天学到的新知识" class="headerlink" title="今天学到的新知识"></a>今天学到的新知识</h2><h3 id="如何更新和上传博客"><a href="#如何更新和上传博客" class="headerlink" title="如何更新和上传博客"></a>如何更新和上传博客</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo cl</span><br></pre></td></tr></table></figure>
-<p>‘hexo c1’命令用于清除缓存文件(db.json)和已生成的静态文件(public)。<br>例如:在更换主题后，如果发现站点更改不生效，可以运行该命令。</p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
-<p>这些操作只是在本地进行了更新，要想部署到网上(github)，则不需要输入hexo x，输入如下代码:</p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
-<p>这样就可以在网上浏览自己的博客了！</p>
-]]></content>
-      <categories>
-        <category>hexo配置</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>study-1</title>
-    <url>/2023-05-07-study-1/</url>
-    <content><![CDATA[<h1 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h1><h2 id="栈，队列，数组"><a href="#栈，队列，数组" class="headerlink" title="栈，队列，数组"></a>栈，队列，数组</h2><h3 id="栈"><a href="#栈" class="headerlink" title="栈"></a>栈</h3><h4 id="栈的的基本概念"><a href="#栈的的基本概念" class="headerlink" title="栈的的基本概念"></a>栈的的基本概念</h4><ul>
-    <li>栈
-        <ul>
-            <li>逻辑结构是线性结构中的 <em style="color:#ff7675">线性表</em>，并且还是<em style="color:#ff7675">操作受限的线性表。</em>
-            </li>
-            <li>存储结构（物理存储）有两种，根据存储结构的不同，分为<em style="color:#ff7675">顺序栈</em> 和 <em style="color:#ff7675">链栈。</em>
-                <ul>
-                    <li>顺序栈的存储结构为 <em style="color:#ff7675">顺序存储。</em></li>
-                    <li>链栈的存储结构为 <em style="color:#ff7675">链式存储。</em></li>
-                </ul>
-            </li>
-            <li>运算：只允许在一端进行 <em style="color:#ff7675">插入</em>或者<em style="color:#ff7675">删除</em> 操作。</li>
-        </ul>
-    </li>
-</ul>
-
-<h4 id="顺序栈的实现"><a href="#顺序栈的实现" class="headerlink" title="顺序栈的实现"></a>顺序栈的实现</h4><h5 id="顺序栈的顺序存储类型"><a href="#顺序栈的顺序存储类型" class="headerlink" title="顺序栈的顺序存储类型"></a>顺序栈的顺序存储类型</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">define</span> MaxSize 10</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span>&#123;</span></span><br><span class="line">    Elemtype data[MaxSize];</span><br><span class="line">    <span class="type">int</span> top;</span><br><span class="line">&#125; SqStack;</span><br></pre></td></tr></table></figure>
-
-<h5 id="顺序栈的初始化"><a href="#顺序栈的初始化" class="headerlink" title="顺序栈的初始化"></a>顺序栈的初始化</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">InitStack</span><span class="params">( Sqstack &amp;S )</span>&#123;</span><br><span class="line">    S.top=<span class="number">-1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h5 id="判断栈空"><a href="#判断栈空" class="headerlink" title="判断栈空"></a>判断栈空</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">StackEmpty</span><span class="params">( Sqstack &amp;S )</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(S.top=<span class="number">-1</span>)&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h5 id="进栈"><a href="#进栈" class="headerlink" title="进栈"></a>进栈</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">Push</span><span class="params">( Sqstack &amp;S, ElemType x)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(S.top=MaxSize<span class="number">-1</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    S.top[++S.top]=x;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h5 id="出栈"><a href="#出栈" class="headerlink" title="出栈"></a>出栈</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">PoP</span><span class="params">( Sqstack &amp;S, ElemType &amp;x)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(S.top=MaxSize<span class="number">-1</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    x=S.top[S.top--];</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h5 id="读取栈顶元素"><a href="#读取栈顶元素" class="headerlink" title="读取栈顶元素"></a>读取栈顶元素</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">GetTop</span><span class="params">( Sqstack &amp;S, ElemType &amp;x)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(S.top=<span class="number">-1</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    x=S.date[S.top];</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h5 id="共享栈"><a href="#共享栈" class="headerlink" title="共享栈"></a>共享栈</h5><p>利用栈底位置相对不变的特性，让两个栈分别设置在共享位置的两端，两个栈向共享空间的中间延伸。</p>
-<p>两个栈的栈顶指针都指向栈顶元素， <em style="color:#ff7675">S.top0&#x3D;-1</em> 表示0号栈为空， <em style="color:#ff7675">S.top1&#x3D;MaxSize</em> 表示1号栈为空，仅当两个栈顶元素相邻(<em style="color:#ff7675">top1-top0&#x3D;1</em>),判断栈满。</p>
-<p>共享栈是为了更为有效地利用存储空间，两个栈相互调节，只有这整个存储空间占满时才发生上溢。</p>
-<h4 id="链栈的实现"><a href="#链栈的实现" class="headerlink" title="链栈的实现"></a>链栈的实现</h4><p>采用链式存储的栈称为链栈，链栈的优点是便于多个栈共享存储空间和提高其效率，且不存在栈满上限的情况</p>
-<h5 id="链栈的链式存储结构"><a href="#链栈的链式存储结构" class="headerlink" title="链栈的链式存储结构"></a>链栈的链式存储结构</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">Linknode</span>&#123;</span></span><br><span class="line">    ElemType data;</span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Linknode</span> *<span class="title">node</span>;</span></span><br><span class="line">&#125; *ListStack;</span><br></pre></td></tr></table></figure>
-
-
-]]></content>
-      <categories>
-        <category>数据结构</category>
-      </categories>
-      <tags>
-        <tag>数据结构</tag>
-        <tag>考研</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>orgrinal</title>
-    <url>/2023-05-07-orgrinal/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="456ac8a3118b09fe4058fc6f66042560fa70dc783b8c2fd0984926d76cb14e56">7101c09bfa547786a7ea7678592aad1eb75af43f96aea857bea33b86f2abc0e6712f6d5c9b2b5a078a6abb0f59d59d487b0eb173031be6718e1b1129aff0e23fa7091b8b0ebdd010b9895b48f8959bad1f385825bfe6a288924c8faadaf12e909b840e41ed396d60142b45d37bf9472fc2d3dd1047c6109924885cfa62cf71ab94bfe43b42002ccd15e1be741eb21abdb5945755cd715067f0a7f6c4d91fa468656b41eb2c8efb64e2f668bc568866bb3dde1a0cc1f372bb6a2a9683bc4e10587c008e67f351a7f70dc33cbf869c2bd225a8c56b87f3074da67dd0e8f765bcbb90f5789e24728dfe719dbfb0ba0cf45c161a2868ecb5087ea641bbce58a25fa01bb8df467ab687131337266faa30813f4378455514c79cfcd9a246786d0367372c4b302050dab3e7ffbc17d43ce77bb4aa56e46f24807d9d815f003f37f0cf57dfe80dd55dbed373278607f85160d8f6142fa6a4380fcdebbe3993966ceb3e5a9017ed8b984c31def68ea75af3bab2fae7dea944128d7c3ca6f578426dd8282aad4bb09d977b717d59de1c064229cf7591656a61404d17ea0de1848774dbf394b3283ad58957831dd028435409611c191e99610e2f1dae4403384a73526b5205542366fb45b2621c5c216d8e9578543f5c40afed5a5b0c5b287fa2e25d6c17c72672e9fb6c85e29e83633c0522ca78de31e1f656e5035b7911452f6cd3a0c70135b8d598167820440c4cfdfe9ccbd715b896d38692e9097a3a86c61c754a7bbf4f9ffb92cefdd3206e6f50e37ebbcc0bd4d54b053cb6948aa8348de30d1ce13fcb57179c80a1c2eff26d6bfc9f48c12e4e669ba00f5058f5492a623c9c4953a21111648a9266e8f924fd7ccb68bc91b27d53645bf05f4bac2fdf54f7669575d443ff0405e0c5edf6b5bbed3ddd2b58e891287a58b84615b1ce649a00d2398e77d95d44e985ff497c7903226c8a64205ba00dc0817a3ff201cddee27f7427bc020ee01d3b453821b28b1da75a21423faa53bb7dcc09f3cba6bf695ec2983aeb390f7a5fa1b5ed1d5dc68f62439199809efd453e05759aeec641151e60a1512797c526ae5235ec1e0cada670006ad5eb87b7cdec917b70755d6287b8ae346dfe672249a7aca3bdc252694fa0341476c3cee99c591a83794263ddcf238e1794cbfb8028dc517686cf134077e794cfbaaae96bc941d5e54b3f29475a6ce713ac5efbc4dabd03d2fdeabb0d0c7057ef89dfd848df59dd7458fb6eedb24a346f8cab1e675faabcacdbadb299a0fc70cce5655081357a08b82c725b0f2cf210a92b63bb247c983d11970e67336aad977cf6bdcfdbbf4a0cf6193cffecf62f01b1c1f34d86f0a4d708d12c8b05f1077452b32d2291943ef6efee386849d3dbd6f6b01c4194e52da14f4e0a3161a69fd4d920d562a0fb9374415dfe23314fd4873ed008dc14a832218161a4859afd55a9b6c384df0a4c921aa38b255eb29b7576c706fe3b43f2529c7b5f33b149dbe21cab9d11b18fd9596830bc6019c4a3169880aeb13b0b06ddbe61eb08db7a26d5d38c36b96e1f5073ec134d04b6dc1c3fe16563e5a35a502e67854bc667f264129727a1bbfe093593e492ab588313d1f1096e5cf26841059aad7ba9e2ea69168a9c1a511747e858554738acc43150407bf88c026063bd5f5b4a727ba2d9a3357880044ea80ef1ff41a65f6948043def414579796cacafeb7b0f418117ef7ea702b98efbaf3121381a5a14b4511c9adb4021248fef20572e8ae22a9390c2cede1446e953a5b05e465bce4a1d22adece240c669f710b6d1aa9350c2d8c98a5e64810aec7545e251c3eef256cc21381e9550b1e2528e5c4a0f268dfdce9568f207b6272c1b0ad843fd2459cae33b78c5cd78cd7c86d561e6b4c9ca3fc062f5796d4ef5ceb3de8c72291d3679d20b74407ddc46fa39d0f67204d4bf66c1ef08158e1cbcc9575ba1e4f0252d6d5b962f28e93306bcfe455bd2985baa6ed4357d778212e6639d463afddcb06191ea9b8800aa31661c7d8308caa946b96125cc7d006c2e23382f68afac407615af2d1356dc1746969f7731f484c190b0953e9fac773ca2ac4a655ab045c90b08e3dd666123e62c4416a7d192b09082dd7014e97896bb5a3b9e59f59f3ec236ef2ddeb141be8bd902c0b8627898a20e23cf28d5a9e2fb59957dabba637203668272809f2dbdf4dd170b8c68c7b388311a6c7b7b3522a5e6ad0d0f3ac2e353cbb08043b9de80b70c387b15b8ea3596378024c7d11d551c7ab189b7add982618f02e447aad8d8d9ebe7de9713d9770c9d158153397dfe8640d625d764d18abba5600daa358387e3b979d146a8d664247761e4a2931dd490e5e18d4a93086fc4bf2986a56023fe2ab2f0163ebb4c0fdd7051258330c7039a37e1c13e0d2ca2a6ff4210b35fd9bc18b0f4dae961f6f11203c01111e664ec94f0b42e0698b382e1185bf82ff5d6b7871898dd570cb353dd97679beb0b88512c6fc7da6e91b2a1e082ef6016ac06b8d17e6117d65a636a3f8f6fc07da7b8fe0b0c426abc781c420fa561058cc1c71d83d9f5c1a4fbe36c5257c14d1044e642a5ff2f20832165e4ff9ecb46b1ff8bab792a1a8f6d20f1ce02e653d6f28f35e18a83b141be36f1292a4841ca64326798f33facf84e2d7d83a6ae93ab444debb3e536cbcb75bc016f8a055f7407402f62377ded01e07d05fe92c13dcec0bfe977c49e4d62c76d187244c921d0cf68e1ffe1b8b0201726b5d0831252412a6cb6f9088b387d3b55b965f5895e5fb111dcf3260b12ee8c35294d25898e8fa3b46dee2252c39a7ecd04ecefb8551414a3cdad94c4037e6dc1b5c4c4abf3192328a733df030bd6c3142d9c93f91fd51f2d82b323e25694ffd593356cf672cd81020397db6aedc5c17b6592200b5d34a84d5f85fd3b026bf3135dfe17cbdab72fe2e27f9627c407d9ef0b398bd4781926520f63151739b303b1a919715f6f3cc52582ab8d43be0957f9a04422e66ae5d62931dc81d9c2fb62520dc73873b89c6c2c8399b281ea469b25b16ab1ca92d1c90c3117bd46401e66a9848da0cf1f925dd5e8c49bfaa0ebdacf145fa591def012390fec3044490d6a95df5c099501e6439eea2c477181ec7ba54d506ee540f5fcf01e48b32e9bb572eab67f73c5b4aea49b677720c123e5faa922b07e777c45ced22eb17eaac66ea0169adf2600933fd06125c4ba25e6a68665ba07f99fca051523a315c36eaad27d02e91f97ba2cbfa1fa44868116f62dd011e0751d3b94bd84de868bafb4f5fbe655c8</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">输入密码！</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <tags>
-        <tag>记录</tag>
       </tags>
   </entry>
   <entry>
@@ -201,6 +135,72 @@
       </categories>
       <tags>
         <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>orgrinal</title>
+    <url>/2023-05-07-orgrinal/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="456ac8a3118b09fe4058fc6f66042560fa70dc783b8c2fd0984926d76cb14e56">7101c09bfa547786a7ea7678592aad1eb75af43f96aea857bea33b86f2abc0e6712f6d5c9b2b5a078a6abb0f59d59d487b0eb173031be6718e1b1129aff0e23fa7091b8b0ebdd010b9895b48f8959bad1f385825bfe6a288924c8faadaf12e909b840e41ed396d60142b45d37bf9472fc2d3dd1047c6109924885cfa62cf71ab94bfe43b42002ccd15e1be741eb21abdb5945755cd715067f0a7f6c4d91fa468656b41eb2c8efb64e2f668bc568866bb3dde1a0cc1f372bb6a2a9683bc4e10587c008e67f351a7f70dc33cbf869c2bd225a8c56b87f3074da67dd0e8f765bcbb90f5789e24728dfe719dbfb0ba0cf45c161a2868ecb5087ea641bbce58a25fa01bb8df467ab687131337266faa30813f4378455514c79cfcd9a246786d0367372c4b302050dab3e7ffbc17d43ce77bb4aa56e46f24807d9d815f003f37f0cf57dfe80dd55dbed373278607f85160d8f6142fa6a4380fcdebbe3993966ceb3e5a9017ed8b984c31def68ea75af3bab2fae7dea944128d7c3ca6f578426dd8282aad4bb09d977b717d59de1c064229cf7591656a61404d17ea0de1848774dbf394b3283ad58957831dd028435409611c191e99610e2f1dae4403384a73526b5205542366fb45b2621c5c216d8e9578543f5c40afed5a5b0c5b287fa2e25d6c17c72672e9fb6c85e29e83633c0522ca78de31e1f656e5035b7911452f6cd3a0c70135b8d598167820440c4cfdfe9ccbd715b896d38692e9097a3a86c61c754a7bbf4f9ffb92cefdd3206e6f50e37ebbcc0bd4d54b053cb6948aa8348de30d1ce13fcb57179c80a1c2eff26d6bfc9f48c12e4e669ba00f5058f5492a623c9c4953a21111648a9266e8f924fd7ccb68bc91b27d53645bf05f4bac2fdf54f7669575d443ff0405e0c5edf6b5bbed3ddd2b58e891287a58b84615b1ce649a00d2398e77d95d44e985ff497c7903226c8a64205ba00dc0817a3ff201cddee27f7427bc020ee01d3b453821b28b1da75a21423faa53bb7dcc09f3cba6bf695ec2983aeb390f7a5fa1b5ed1d5dc68f62439199809efd453e05759aeec641151e60a1512797c526ae5235ec1e0cada670006ad5eb87b7cdec917b70755d6287b8ae346dfe672249a7aca3bdc252694fa0341476c3cee99c591a83794263ddcf238e1794cbfb8028dc517686cf134077e794cfbaaae96bc941d5e54b3f29475a6ce713ac5efbc4dabd03d2fdeabb0d0c7057ef89dfd848df59dd7458fb6eedb24a346f8cab1e675faabcacdbadb299a0fc70cce5655081357a08b82c725b0f2cf210a92b63bb247c983d11970e67336aad977cf6bdcfdbbf4a0cf6193cffecf62f01b1c1f34d86f0a4d708d12c8b05f1077452b32d2291943ef6efee386849d3dbd6f6b01c4194e52da14f4e0a3161a69fd4d920d562a0fb9374415dfe23314fd4873ed008dc14a832218161a4859afd55a9b6c384df0a4c921aa38b255eb29b7576c706fe3b43f2529c7b5f33b149dbe21cab9d11b18fd9596830bc6019c4a3169880aeb13b0b06ddbe61eb08db7a26d5d38c36b96e1f5073ec134d04b6dc1c3fe16563e5a35a502e67854bc667f264129727a1bbfe093593e492ab588313d1f1096e5cf26841059aad7ba9e2ea69168a9c1a511747e858554738acc43150407bf88c026063bd5f5b4a727ba2d9a3357880044ea80ef1ff41a65f6948043def414579796cacafeb7b0f418117ef7ea702b98efbaf3121381a5a14b4511c9adb4021248fef20572e8ae22a9390c2cede1446e953a5b05e465bce4a1d22adece240c669f710b6d1aa9350c2d8c98a5e64810aec7545e251c3eef256cc21381e9550b1e2528e5c4a0f268dfdce9568f207b6272c1b0ad843fd2459cae33b78c5cd78cd7c86d561e6b4c9ca3fc062f5796d4ef5ceb3de8c72291d3679d20b74407ddc46fa39d0f67204d4bf66c1ef08158e1cbcc9575ba1e4f0252d6d5b962f28e93306bcfe455bd2985baa6ed4357d778212e6639d463afddcb06191ea9b8800aa31661c7d8308caa946b96125cc7d006c2e23382f68afac407615af2d1356dc1746969f7731f484c190b0953e9fac773ca2ac4a655ab045c90b08e3dd666123e62c4416a7d192b09082dd7014e97896bb5a3b9e59f59f3ec236ef2ddeb141be8bd902c0b8627898a20e23cf28d5a9e2fb59957dabba637203668272809f2dbdf4dd170b8c68c7b388311a6c7b7b3522a5e6ad0d0f3ac2e353cbb08043b9de80b70c387b15b8ea3596378024c7d11d551c7ab189b7add982618f02e447aad8d8d9ebe7de9713d9770c9d158153397dfe8640d625d764d18abba5600daa358387e3b979d146a8d664247761e4a2931dd490e5e18d4a93086fc4bf2986a56023fe2ab2f0163ebb4c0fdd7051258330c7039a37e1c13e0d2ca2a6ff4210b35fd9bc18b0f4dae961f6f11203c01111e664ec94f0b42e0698b382e1185bf82ff5d6b7871898dd570cb353dd97679beb0b88512c6fc7da6e91b2a1e082ef6016ac06b8d17e6117d65a636a3f8f6fc07da7b8fe0b0c426abc781c420fa561058cc1c71d83d9f5c1a4fbe36c5257c14d1044e642a5ff2f20832165e4ff9ecb46b1ff8bab792a1a8f6d20f1ce02e653d6f28f35e18a83b141be36f1292a4841ca64326798f33facf84e2d7d83a6ae93ab444debb3e536cbcb75bc016f8a055f7407402f62377ded01e07d05fe92c13dcec0bfe977c49e4d62c76d187244c921d0cf68e1ffe1b8b0201726b5d0831252412a6cb6f9088b387d3b55b965f5895e5fb111dcf3260b12ee8c35294d25898e8fa3b46dee2252c39a7ecd04ecefb8551414a3cdad94c4037e6dc1b5c4c4abf3192328a733df030bd6c3142d9c93f91fd51f2d82b323e25694ffd593356cf672cd81020397db6aedc5c17b6592200b5d34a84d5f85fd3b026bf3135dfe17cbdab72fe2e27f9627c407d9ef0b398bd4781926520f63151739b303b1a919715f6f3cc52582ab8d43be0957f9a04422e66ae5d62931dc81d9c2fb62520dc73873b89c6c2c8399b281ea469b25b16ab1ca92d1c90c3117bd46401e66a9848da0cf1f925dd5e8c49bfaa0ebdacf145fa591def012390fec3044490d6a95df5c099501e6439eea2c477181ec7ba54d506ee540f5fcf01e48b32e9bb572eab67f73c5b4aea49b677720c123e5faa922b07e777c45ced22eb17eaac66ea0169adf2600933fd06125c4ba25e6a68665ba07f99fca051523a315c36eaad27d02e91f97ba2cbfa1fa44868116f62dd011e0751d3b94bd84de868bafb4f5fbe655c8</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">输入密码！</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <tags>
+        <tag>记录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>study-1</title>
+    <url>/2023-05-07-study-1/</url>
+    <content><![CDATA[<h1 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h1><h2 id="栈，队列，数组"><a href="#栈，队列，数组" class="headerlink" title="栈，队列，数组"></a>栈，队列，数组</h2><h3 id="栈"><a href="#栈" class="headerlink" title="栈"></a>栈</h3><h4 id="栈的的基本概念"><a href="#栈的的基本概念" class="headerlink" title="栈的的基本概念"></a>栈的的基本概念</h4><ul>
+    <li>栈
+        <ul>
+            <li>逻辑结构是线性结构中的 <em style="color:#ff7675">线性表</em>，并且还是<em style="color:#ff7675">操作受限的线性表。</em>
+            </li>
+            <li>存储结构（物理存储）有两种，根据存储结构的不同，分为<em style="color:#ff7675">顺序栈</em> 和 <em style="color:#ff7675">链栈。</em>
+                <ul>
+                    <li>顺序栈的存储结构为 <em style="color:#ff7675">顺序存储。</em></li>
+                    <li>链栈的存储结构为 <em style="color:#ff7675">链式存储。</em></li>
+                </ul>
+            </li>
+            <li>运算：只允许在一端进行 <em style="color:#ff7675">插入</em>或者<em style="color:#ff7675">删除</em> 操作。</li>
+        </ul>
+    </li>
+</ul>
+
+<h4 id="顺序栈的实现"><a href="#顺序栈的实现" class="headerlink" title="顺序栈的实现"></a>顺序栈的实现</h4><h5 id="顺序栈的顺序存储类型"><a href="#顺序栈的顺序存储类型" class="headerlink" title="顺序栈的顺序存储类型"></a>顺序栈的顺序存储类型</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">define</span> MaxSize 10</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span>&#123;</span></span><br><span class="line">    Elemtype data[MaxSize];</span><br><span class="line">    <span class="type">int</span> top;</span><br><span class="line">&#125; SqStack;</span><br></pre></td></tr></table></figure>
+
+<h5 id="顺序栈的初始化"><a href="#顺序栈的初始化" class="headerlink" title="顺序栈的初始化"></a>顺序栈的初始化</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">InitStack</span><span class="params">( Sqstack &amp;S )</span>&#123;</span><br><span class="line">    S.top=<span class="number">-1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h5 id="判断栈空"><a href="#判断栈空" class="headerlink" title="判断栈空"></a>判断栈空</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">StackEmpty</span><span class="params">( Sqstack &amp;S )</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(S.top=<span class="number">-1</span>)&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h5 id="进栈"><a href="#进栈" class="headerlink" title="进栈"></a>进栈</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">Push</span><span class="params">( Sqstack &amp;S, ElemType x)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(S.top=MaxSize<span class="number">-1</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    S.top[++S.top]=x;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h5 id="出栈"><a href="#出栈" class="headerlink" title="出栈"></a>出栈</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">PoP</span><span class="params">( Sqstack &amp;S, ElemType &amp;x)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(S.top=MaxSize<span class="number">-1</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    x=S.top[S.top--];</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h5 id="读取栈顶元素"><a href="#读取栈顶元素" class="headerlink" title="读取栈顶元素"></a>读取栈顶元素</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">GetTop</span><span class="params">( Sqstack &amp;S, ElemType &amp;x)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(S.top=<span class="number">-1</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    x=S.date[S.top];</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h5 id="共享栈"><a href="#共享栈" class="headerlink" title="共享栈"></a>共享栈</h5><p>利用栈底位置相对不变的特性，让两个栈分别设置在共享位置的两端，两个栈向共享空间的中间延伸。</p>
+<p>两个栈的栈顶指针都指向栈顶元素， <em style="color:#ff7675">S.top0&#x3D;-1</em> 表示0号栈为空， <em style="color:#ff7675">S.top1&#x3D;MaxSize</em> 表示1号栈为空，仅当两个栈顶元素相邻(<em style="color:#ff7675">top1-top0&#x3D;1</em>),判断栈满。</p>
+<p>共享栈是为了更为有效地利用存储空间，两个栈相互调节，只有这整个存储空间占满时才发生上溢。</p>
+<h4 id="链栈的实现"><a href="#链栈的实现" class="headerlink" title="链栈的实现"></a>链栈的实现</h4><p>采用链式存储的栈称为链栈，链栈的优点是便于多个栈共享存储空间和提高其效率，且不存在栈满上限的情况</p>
+<h5 id="链栈的链式存储结构"><a href="#链栈的链式存储结构" class="headerlink" title="链栈的链式存储结构"></a>链栈的链式存储结构</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">Linknode</span>&#123;</span></span><br><span class="line">    ElemType data;</span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Linknode</span> *<span class="title">node</span>;</span></span><br><span class="line">&#125; *ListStack;</span><br></pre></td></tr></table></figure>
+
+
+]]></content>
+      <categories>
+        <category>数据结构</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>考研</tag>
       </tags>
   </entry>
 </search>
