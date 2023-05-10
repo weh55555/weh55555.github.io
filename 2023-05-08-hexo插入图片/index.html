@@ -208,7 +208,7 @@
     
         <span class="article-update-date article-meta-item">
         <i class="fas fa-file-pen"></i>&nbsp;
-        <span class="pc">2023-05-09 23:44:43</span>
+        <span class="pc">2023-05-10 09:27:17</span>
     </span>
     
     
@@ -239,7 +239,7 @@
     
     
         <span class="article-wordcount article-meta-item">
-            <i class="fas fa-file-word"></i>&nbsp;<span>311 字</span>
+            <i class="fas fa-file-word"></i>&nbsp;<span>484 字</span>
         </span>
     
     
@@ -262,7 +262,29 @@
             <div class="article-content keep-markdown-body">
                 
 
-                <h1 id="hexo-插入图片"><a href="#hexo-插入图片" class="headerlink" title="hexo 插入图片"></a>hexo 插入图片</h1><h2 id="文件资源管理器"><a href="#文件资源管理器" class="headerlink" title="文件资源管理器"></a>文件资源管理器</h2><p><font style="color:#00b894">推荐</font></p>
+                <h1 id="hexo-插入图片"><a href="#hexo-插入图片" class="headerlink" title="hexo 插入图片"></a>hexo 插入图片</h1><h2 id="全局资源文件夹"><a href="#全局资源文件夹" class="headerlink" title="全局资源文件夹"></a>全局资源文件夹</h2><p><font style="color:#d63031">不推荐</font></p>
+<p>将所有的文章的资源统一用一个全局资源文件夹管理。</p>
+<ul>
+<li>优点<ul>
+<li>使用便捷</li>
+<li>多篇文章需要引用同一资源时，也比较方便。</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>缺点<ul>
+<li>文章很多时，图片都在同一个文件夹中，不便管理。</li>
+</ul>
+</li>
+</ul>
+<p>方法：</p>
+<p>在你的 Blog 文件夹的source目录下，新建一个专门放置图片资源的文件夹，可叫images，将想要插入的图片放在该文件夹中。</p>
+<p>md文档中，使用</p>
+<figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">图片</span>](<span class="link">图片链接地址 &quot;图片title&quot;</span>) </span><br></pre></td></tr></table></figure>
+
+<p>的格式，圆括号内的链接地址写(&#x2F;images&#x2F;name.jpeg)。</p>
+<p>这里的 &#x2F; 指的是根目录，对于hexo，资源文件的根目录就是source。</p>
+<h2 id="文件资源管理器"><a href="#文件资源管理器" class="headerlink" title="文件资源管理器"></a>文件资源管理器</h2><p><font style="color:#00b894">推荐</font></p>
 <ul>
 <li><p>优点</p>
 <ul>
@@ -280,29 +302,19 @@
 <p>修改你的Blog文件夹中的_config.yml文件，如下:</p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">post_asset_folder:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">marked:</span></span><br><span class="line">  <span class="attr">prependRoot:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">postAsset:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
 
-<p>然后在终端中你的Blog文件夹中,<font style="color:#ff7675">hexo new[layout] “title”</font>命令创建一篇新文章，此时会在hexo文件夹的source目录下，自动创建一个文件夹和.md文件</p>
-<h2 id="全局资源文件夹"><a href="#全局资源文件夹" class="headerlink" title="全局资源文件夹"></a>全局资源文件夹</h2><p><font style="color:#d63031">不推荐</font></p>
-<p>将所有的文章的资源统一用一个全局资源文件夹管理。</p>
-<ul>
-<li>优点<ul>
-<li>使用便捷</li>
-<li>多篇文章需要引用同一资源时，也比较方便。</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li>缺点<ul>
-<li>文章很多时，图片都在同一个文件夹中，不便管理。</li>
-</ul>
-</li>
-</ul>
-<p>方法：</p>
-<p>在你的 Blog 文件夹的source目录下，新建一个专门放置图片资源的文件夹，可叫images，将想要插入的图片放在改文件夹中。</p>
-<p>md文档中，使用</p>
-<figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">图片</span>](<span class="link">图片链接地址 &quot;图片title&quot;</span>) </span><br></pre></td></tr></table></figure>
+<p>然后在终端中转到你的Blog文件夹中,输入 <font style="color:#ff7675">hexo new [layout] “title”</font>命令创建一篇新文章，此时会在hexo文件夹的source目录下，自动创建一个同名的文件夹和.md文件</p>
+<p>注：layout可以不写，默认在 <font style="color:#ff7675">sources&#x2F;posts</font>目录下自动创建,title是这篇新文章的标题，最好使用双引号（””）将标题引起来，如果标题中间有空格则必须使用双引号。</p>
+<p>余下步骤同上！</p>
+<h2 id="Typora插入图片使用指南"><a href="#Typora插入图片使用指南" class="headerlink" title="Typora插入图片使用指南"></a>Typora插入图片使用指南</h2><p>如果你使用的Typora编辑你的Blog，而且你采用的是文件资源管理器的方式，你也可以这样设置</p>
+<p>点击文件-&gt;偏好设置-&gt;图像，按如下设置:</p>
+<img  
+                     lazyload
+                     alt="image"
+                     data-src="tip1.png"
+                      alt="tip1" style="zoom:33%;" 
+                >
 
-<p>的格式，圆括号内的链接地址写(&#x2F;images&#x2F;name.jpeg)。</p>
-<p>这里的 &#x2F; 指的是根目录，对于hexo，资源文件的根目录就是source。</p>
+<p>便可以直接将该文章同名的文件夹中的图片直接复制粘贴在这篇文章中，不需要修改任何东西！</p>
 
             </div>
 
@@ -347,7 +359,7 @@
             <div class="toc-content-container">
                 <div class="post-toc-wrap">
     <div class="post-toc">
-        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#hexo-%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87"><span class="nav-number">1.</span> <span class="nav-text">hexo 插入图片</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%96%87%E4%BB%B6%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8"><span class="nav-number">1.1.</span> <span class="nav-text">文件资源管理器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%A8%E5%B1%80%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6%E5%A4%B9"><span class="nav-number">1.2.</span> <span class="nav-text">全局资源文件夹</span></a></li></ol></li></ol>
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#hexo-%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87"><span class="nav-number">1.</span> <span class="nav-text">hexo 插入图片</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%A8%E5%B1%80%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6%E5%A4%B9"><span class="nav-number">1.1.</span> <span class="nav-text">全局资源文件夹</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%96%87%E4%BB%B6%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8"><span class="nav-number">1.2.</span> <span class="nav-text">文件资源管理器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Typora%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97"><span class="nav-number">1.3.</span> <span class="nav-text">Typora插入图片使用指南</span></a></li></ol></li></ol>
     </div>
 </div>
 
